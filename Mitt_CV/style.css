@@ -32,7 +32,6 @@
 .menu.show{
     display: flex;
 }
-
 .bigbody{
     width: 100%;
     height: 90%;
@@ -48,10 +47,11 @@ border-radius: 10%;
 .ptext{
     padding-top: 4%;
     padding-left: 2%;
-    font-size: 150%;
+    font-size: 1vw;
 }
 
 /*####################### Main Site*/
+
 .headline{
     background-color: lightgray;
     width: 20%;
@@ -62,7 +62,7 @@ border-radius: 10%;
 }
 .Head{
     text-align: center;
-    font-size: 800%;
+    font-size: 5vw;
     margin-top: 6%;
 }
 .name{
@@ -72,16 +72,16 @@ border-radius: 10%;
 }
 .Main{
     /* background-color: yellowgreen; */
-    width: 100%;
-    height: 70%;
+    width: 100vw;
+    height: 70vw;
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
 }
 .num1, .num2, .num3, .num4{
     background-color: lightgray;
-    width: 200px;
-    height: 200px;
+    width: 7vw;
+    height: 7vw;
     margin: 5%;
     border-radius: 100%;
     margin-top: 10%;
@@ -196,13 +196,14 @@ border-radius: 10%;
 .Main3{
     justify-content: center;
     display: flex;
-}.head3{
+}
+.head3{
     font-size: 50px;
 }
 .imgofme{
     margin-top: 3%;
-    height: 45%;
-    width: 62%;
+    height: 15vw;
+    width: 15vw;
     border-radius: 100%;
     background-color: blue;
     background: url('Bilder/IMG_2532.JPG') no-repeat center center;
@@ -243,6 +244,7 @@ border-radius: 10%;
     border-radius: 10%;
     margin-top: 3%;
 }
+
 /*####################### Fritid */
 
 .main4{
@@ -285,7 +287,6 @@ border-radius: 10%;
 .fourebody1{
     display: flex;
 }
-
 .foureimg{
     width: 90%;
     height: 97%;
