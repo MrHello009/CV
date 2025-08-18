@@ -1,0 +1,327 @@
+*{  
+    margin: auto;
+}
+.burger{
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+    display: block;
+    margin: 10px;
+    /* background-color: aqua; */
+}
+.menu{
+    display: none;
+    flex-direction: column;
+    background: #eee;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.menu a{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+.menu a:hover{
+    padding: 15px 0;
+    font-size: 30px;
+}
+.menu.show{
+    display: flex;
+}
+
+.bigbody{
+    width: 100%;
+    height: 90%;
+    display: flex;
+
+}
+.litle1, .litle2, .litle3{
+width: 33%;
+height: 100%;
+background-color: whitesmoke;
+border-radius: 10%;
+}
+.ptext{
+    padding-top: 4%;
+    padding-left: 2%;
+    font-size: 150%;
+}
+
+/*####################### Main Site*/
+.headline{
+    background-color: lightgray;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    padding: 2%;
+    margin-top: 5%;
+}
+.Head{
+    text-align: center;
+    font-size: 800%;
+    margin-top: 6%;
+}
+.name{
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.Main{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.num1, .num2, .num3, .num4{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+    border-radius: 100%;
+    margin-top: 10%;
+    justify-content: center;
+}
+.Button{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.big{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: lightgray;
+    margin: 3%;
+    margin-top: 7%;
+}
+.bild{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;  
+}
+.bild.hide{
+    display: none;
+}
+.text.show{
+    display: flex;
+
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    display: none;
+    height: 100%;
+    font-size: 50px;
+    text-decoration: none;
+}
+.num1{
+    background: url('Bilder/Skärmbild 2025-07-22 153430.png') no-repeat center center; 
+    background-size: cover;
+}
+.num2{
+    background: url('Bilder/Skärmbild 2025-07-22 153451.png') no-repeat center center; 
+    background-size: cover;
+}
+.num3{
+    background: url('Bilder/Skärmbild 2025-08-17 113535.png') no-repeat center center; 
+    background-size: cover;
+}
+.num4{
+    background: url('Bilder/Skärmbild 2025-07-22 153440.png') no-repeat center center; 
+    background-size: cover;
+
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 1000px){
+
+    .num1, .num2, .num3, .num4{
+        width: 150px;
+        height: 150px;
+    }
+        
+    .big{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*######################## Referenser */
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+.refimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+.reftext1{
+    background-color: lightgray;
+    width: 90%;
+    height: 50%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+.reftext2{
+    background-color: lightgray;
+    width: 90%;
+    height: 39%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+.reftext3{
+    background-color: lightgray;
+    width: 90%;
+    height: 50%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+.litleptext{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+/*######################## OM Mig */
+
+.Main3{
+    justify-content: center;
+    display: flex;
+}.head3{
+    font-size: 50px;
+}
+.imgofme{
+    margin-top: 3%;
+    height: 45%;
+    width: 62%;
+    border-radius: 100%;
+    background-color: blue;
+    background: url('Bilder/IMG_2532.JPG') no-repeat center center;
+    background-size: cover;
+}
+.omtext1{
+    margin: 1%;
+    width: 90%;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 10%;
+}
+.omtext2{
+    width: 90%;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+.omtext3{
+    width: 90%;
+    height: 42%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+.omtext4{
+    width: 90%;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+.omtext5{
+    width: 90%;
+    height: 42%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+/*####################### Fritid */
+
+.main4{
+    display: flex;
+    justify-content: center;
+}
+.head4{
+    font-size: 50px;
+}
+.textsmall{
+    width: 90%;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+
+/*###################### Erfarenheter */
+
+.halfbody1{
+    width: 47%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.halfbody2{
+    width: 47%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    display: flex;
+}
+.fourebody1, .fourebody2{
+    width: 95%;
+    height: 47%;
+    border-radius: 10%;
+}
+.fourebody1{
+    display: flex;
+}
+
+.foureimg{
+    width: 90%;
+    height: 97%;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    border-radius: 3%;
+}
+.credly{
+    width: 50%;
+    height: 100%;
+    background: url('Bilder/it-specialist-python.png') no-repeat center center;
+    background-size: cover;
+    /* background-color: blue; */
+}
+.smalltext{
+    width: 50%;
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 1%;
+}
+.linkref{
+    width: 100%;
+    height: 100%;
+}
+.bigimg1, .bigimg2{
+width: 47%;
+height: 95%;
+background-color: lightgray;
+border-radius: 10%;
+}
+.bigimg1{
+    background: url(Bilder/flygvapnet1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.bigimg2{
+    background: url(Bilder/flygvapnet2.jpg) no-repeat center center;
+    background-size: cover;
+}
