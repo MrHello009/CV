@@ -227,6 +227,11 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
 }
+@media screen and (max-width: 2000px) {
+    .omtext1{
+        height: 60%;
+    }
+}
 .omtext2{
     width: 90%;
     height: 50%;
