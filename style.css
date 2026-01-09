@@ -1,12 +1,17 @@
-*{  
+
+*{
+    box-sizing: border-box;
     margin: auto;
 }
+html{font-size:16px}
+body{margin:0;font-family:Arial, Helvetica, sans-serif;color:#222}
 .burger{
     font-size: 2em;
     cursor: pointer;
     user-select: none;
     display: block;
     margin: 10px;
+    
     /* background-color: aqua; */
 }
 .menu{
@@ -23,11 +28,12 @@
     padding: 8px 0;
     text-decoration: none;
     color: #333;
-    font-size: 25px;
+    font-size: clamp(1rem, 1rem + 1.2vw, 1.8rem);
 }
 .menu a:hover{
-    padding: 15px 0;
-    font-size: 30px;
+    /* avoid large jumps on hover; use subtle highlight */
+    padding: 10px 0;
+    background: rgba(0,0,0,0.04);
 }
 .menu.show{
     display: flex;
@@ -47,12 +53,7 @@ border-radius: 10%;
 .ptext{
     padding-top: 4%;
     padding-left: 2%;
-    font-size: 150%;
-}
-@media screen and (max-width: 600px){
-    .menu a{
-        font-size: clamp(2rem, 2rem + 1.4vw, 2rem);
-    }
+    font-size: clamp(2rem, 1rem + 0.9vw, 1.5rem);
 }
 
 /*####################### Main Site*/
@@ -203,7 +204,7 @@ border-radius: 10%;
     display: flex;
 }
 .head3{
-    font-size: 50px;
+    font-size: clamp(1.6rem, 1.2rem + 2.5vw, 3rem);
 }
 .imgofme{
     margin-top: 3%;
