@@ -55,6 +55,11 @@ border-radius: 10%;
     padding-left: 2%;
     font-size: clamp(2rem, 1rem + 0.9vw, 1.5rem);
 }
+.ptext2{
+    padding-top: 4%;
+    padding-left: 2%;
+    font-size: clamp(1.6rem, 1rem + 0.5vw, 1.2rem);
+}
 @media screen and (max-width: 2000px){
     .ptext{
         font-size: 150%;
@@ -62,22 +67,31 @@ border-radius: 10%;
 }
 
 /*####################### Main Site*/
+@media screen and (min-width: 1900px){
+    .headline{
+        width: 25%;
+        height: 30%;
+    }
+}
 
 .headline{
     background-color: lightgray;
     width: 20%;
-    height: 20%;
+    height: 25%;
     border-radius: 100%;
     padding: 2%;
     margin-top: 5%;
 }
 .Head{
+    display: flex;
     text-align: center;
+    justify-content: center;
     font-size: 5vw;
-    margin-top: 6%;
+    
 }
 .name{
     text-align: center;
+    font-size: 1vw;
     width: 100%;
     margin-top: 2%;
 }
@@ -217,7 +231,7 @@ border-radius: 10%;
     width: 15vw;
     border-radius: 100%;
     background-color: blue;
-    background: url('Bilder/IMG_2532.JPG') no-repeat center center;
+    background: url('Bilder/image.png') no-repeat center center;
     background-size: cover;
 }
 .omtext1{
@@ -234,14 +248,21 @@ border-radius: 10%;
 }
 .omtext2{
     width: 90%;
-    height: 50%;
+    height: 35%;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-top: 3%;
+}
+.omtext2secound{
+    width: 90%;
+    height: 30%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
 }
 .omtext3{
     width: 90%;
-    height: 42%;
+    height: 25%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
