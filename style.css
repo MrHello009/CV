@@ -124,7 +124,6 @@ border-radius: 10%;
     margin-top: 2%;
 }
 .Main{
-    /* background-color: yellowgreen; */
     width: 100vw;
     height: 70vw;
     display: flex;
@@ -141,7 +140,6 @@ border-radius: 10%;
     justify-content: center;
 }
 .Button{
-    /* background-color: aqua; */
     width: 100%;
     height: 100%;
     border-radius: 100%;
@@ -365,7 +363,6 @@ border-radius: 10%;
     height: 100%;
     background: url('Bilder/it-specialist-python.png') no-repeat center center;
     background-size: cover;
-    /* background-color: blue; */
 }
 .smalltext{
     width: 50%;
