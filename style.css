@@ -7,6 +7,37 @@ html {
     font-size: 100%;
 }
 
+.num1, .num2, .num3, .num4 {
+    width: 100px; /* Base width */
+    height: 100px; /* Base height */
+    border-radius: 50%; /* Make them circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+@media (max-width: 1200px) {
+    .num1, .num2, .num3, .num4 {
+        width: 80px; /* Decrease size for smaller screens */
+        height: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .num1, .num2, .num3, .num4 {
+        width: 60px; /* Further decrease size */
+        height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .num1, .num2, .num3, .num4 {
+        width: 40px; /* Further decrease size for mobile */
+        height: 40px;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 90%;
