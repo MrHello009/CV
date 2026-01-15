@@ -99,19 +99,25 @@ background-color: whitesmoke;
 border-radius: 10%;
 }
 .ptext{
-    padding-top: 4%;
+    padding-top: 2%;
     padding-left: 2%;
-    font-size: clamp(2rem, 1rem + 0.9vw, 1.5rem);
+    padding-right: 2%;
+    font-size: clamp(0.9rem, 0.7rem + 1vw, 1.3rem);
+    line-height: 1.5;
 }
 .infotext{
-    padding-top: 4%;
+    padding-top: 2%;
     padding-left: 2%;
-    font-size: clamp(2rem, 1rem + 0.9vw, 1.5rem);
+    padding-right: 2%;
+    font-size: clamp(0.9rem, 0.7rem + 1vw, 1.3rem);
+    line-height: 1.5;
 }
 .ptext2{
-    padding-top: 4%;
+    padding-top: 2%;
     padding-left: 2%;
-    font-size: clamp(1.6rem, 1rem + 0.5vw, 1.2rem);
+    padding-right: 2%;
+    font-size: clamp(0.85rem, 0.65rem + 0.8vw, 1.1rem);
+    line-height: 1.5;
 }
 @media screen and (max-width: 2500px){
     .ptext{
@@ -292,12 +298,13 @@ border-radius: 10%;
     background-size: cover;
 }
 .omtext1{
-    
-    
     width: 90%;
     height: 50%;
     background-color: lightgray;
     border-radius: 10%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 2000px) {
     .omtext1{
@@ -310,6 +317,9 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 .omtext2secound{
     width: 90%;
@@ -317,6 +327,9 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 .omtext3{
     width: 90%;
@@ -324,6 +337,9 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 .omtext4{
     width: 90%;
@@ -331,6 +347,9 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 .omtext5{
     width: 90%;
@@ -338,6 +357,9 @@ border-radius: 10%;
     background-color: lightgray;
     border-radius: 10%;
     margin-top: 3%;
+    overflow-y: auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 
 /*####################### Fritid */
